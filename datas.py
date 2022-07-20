@@ -25,7 +25,7 @@ with open("datas.txt", "w") as file:
 with open("followers.txt", "w") as file2:
     for names in followers_nameList:
         file2.write(names + "\n")
-    file2.write("*"*20)
+    file2.write("*"*20 + "\n")
     for fname in follow_nameList:
         file2.write(fname + "\n")
     file2.close()
